@@ -1,0 +1,23 @@
+.containerSeptionFooter {
+  margin-top: 1rem;
+  margin-left: 1rem; }
+
+@media (min-width: 36rem) {
+  .containerSeptionFooter {
+    margin-top: 4rem;
+    margin-left: 4rem; } }
+
+@media (min-width: 48rem) {
+  .containerSeptionFooter {
+    margin-top: 5rem;
+    margin-left: 5rem; } }
+
+@media (min-width: 62rem) {
+  .containerSeptionFooter {
+    margin-top: 6rem;
+    margin-left: 6rem; } }
+
+@media (min-width: 75rem) {
+  .containerSeptionFooter {
+    margin-top: 8rem;
+    margin-left: 8rem; } }

@@ -1,0 +1,19 @@
+.l-footer{
+    width: 100%;
+}
+.footer__ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+.footer__li{
+    margin: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;    
+}
+.footer__a{
+    &:hover{
+        font-weight: 700;
+    }
+}

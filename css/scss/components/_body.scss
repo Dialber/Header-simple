@@ -1,0 +1,31 @@
+
+body {
+    background:url("../images/claro.png") right 60%/50% 25rem no-repeat,
+               url("../images/oscura.png") right 60%/50% 25rem no-repeat;
+    }
+
+@media (min-width:36rem){
+    body{
+        background-size: 30% 18rem;
+    }
+}
+@media (min-width:48rem){
+    body{
+        background-size: 30% 25rem;
+    }
+}
+@media (min-width:62rem){
+    body{
+       background-size: 30% 30rem;
+    }
+}
+@media (min-width:75rem){
+    body{
+        background-size: 30% 35rem;
+     }
+}
+@media (min-width:86rem){
+    body{
+        background-size: 25% 35rem;
+     }
+}

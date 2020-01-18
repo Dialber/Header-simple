@@ -1,0 +1,32 @@
+.containerSeptionFooter{   
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+@media (min-width:36rem){
+    .containerSeptionFooter{
+       margin-top: 4rem;  
+       margin-left: 4rem;
+       margin-right: 2rem;
+    }
+}
+@media (min-width:48rem){
+    .containerSeptionFooter{
+       margin-top: 5rem;  
+       margin-left: 5rem;
+       margin-right: 2.5rem;
+    }
+}
+@media (min-width:62rem){
+    .containerSeptionFooter{
+       margin-top: 6rem;  
+       margin-left: 6rem;
+       margin-right: 3rem;
+    }
+}
+@media (min-width:75rem){
+    .containerSeptionFooter{
+       margin-top: 8rem;  
+       margin-left: 8rem;
+       margin-right: 3.5rem;
+    }
+}

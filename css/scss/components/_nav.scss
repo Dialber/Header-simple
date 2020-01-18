@@ -1,0 +1,82 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: $font-nav;
+    font-weight: 400;
+}
+.nav__ul{
+    display: flex;
+    flex-direction: row;    
+    align-items: center; 
+   
+}
+.nav__li{
+    padding: .3rem;   
+    text-transform: capitalize;
+    font-weight: 200;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+    &::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 5%;
+        display: block;
+        left: 0;
+        bottom: 0;
+        background-color: $color-animation-li-header;
+        transform: translateX(100%);
+        transition: all .2s ease-in;
+    }    
+    &:hover::after{       
+        transform: translateX(0);
+    }
+}
+@media (min-width:36rem){
+    .nav{
+        font-size: $font-nav * 1.3;
+    }
+    .nav__ul{
+        margin-right: 2rem; 
+    }
+    .nav__li{
+        padding: .4rem;  
+    }
+}
+@media (min-width:48rem){
+    .nav{
+        font-size:$font-nav * 1.6;
+    }
+    .nav__ul{
+        margin-right: 3rem; 
+    }
+    .nav__li{
+        padding: .6rem;  
+    }
+}
+@media (min-width:62rem){
+    .nav{
+        font-size:$font-nav * 2;
+    }
+    .nav__ul{
+        margin-right: 4rem; 
+    }
+    .nav__li{
+        padding: .8rem;  
+    }
+}
+@media (min-width:75rem){
+    .nav{
+        font-size:$font-nav * 2.5;
+    }
+    .nav__ul{
+        margin-right: 5rem; 
+    }
+    .nav__li{
+        padding: 1rem;  
+    }
+}

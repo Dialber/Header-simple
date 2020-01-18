@@ -1,0 +1,140 @@
+.l-section{
+    margin-bottom: 1.5rem;
+}
+.containerSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    text-align: left;
+}
+.dataSeption{
+    flex: 2;    
+    >*{
+        margin-bottom: 1rem;
+    }
+}
+.dataSeption__h1,.dataSeption__h2{
+    font-weight: 400;
+}
+.containerSection__div{
+    flex: 1;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;   
+    margin-right: 1.5rem; 
+    &::before{
+        content: "";
+        position: absolute;
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        top: -2rem;
+        right: 6rem;
+        background-color:$color-animation-li-header;
+        border-radius: 50%;
+    }  
+    &::after{
+        content: "";
+        position: absolute;
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        top: -2rem;
+        right: 5rem;
+        background-color:$background-shadow-image;
+        border-radius: 50%;
+    } 
+  
+}
+.containerSection__img{    
+    border-radius: 50%;  
+    box-shadow: -.5rem .5rem $color-animation-li-header,-1rem 1rem $background-shadow-image;
+    width: 70%;
+}
+@media (min-width:36rem){
+    .containerSection__div{
+        &::before{           
+            top: -2rem;
+            right:4rem;            
+        }  
+        &::after{          
+            top: -2rem;
+            right: 3rem;            
+        } 
+    }
+    .containerSection__img{
+        width: 100%;
+    }
+    .l-section{
+        margin-bottom: 2rem;
+    }
+    .containerSection{
+        flex-direction: row;
+    }
+    .dataSeption{
+        padding-right: 1rem;      
+        >*{
+            margin-bottom: 1.2rem;
+        }
+    }
+    
+}
+@media (min-width:48rem){
+    .l-section{
+        margin-bottom: 2.5rem;
+    }
+    
+    .dataSeption{   
+        flex: 2;    
+        >*{
+            margin-bottom: 1.4rem;
+        }
+    }
+}
+@media (min-width:62rem){
+    .containerSection__div{
+        &::before{          
+            top: -2rem;
+            right:5rem;            
+        }  
+        &::after{           
+            top: -2rem;
+            right: 4rem;            
+        } 
+    }
+    .containerSection__div{ 
+        align-self:flex-start;
+     }
+    .l-section{
+        margin-bottom: 3rem;
+    }
+    .dataSeption{       
+        >*{
+            margin-bottom: 1.6rem;
+        }
+    }
+}
+@media (min-width:75rem){
+    .l-section{
+        margin-bottom: 3.5rem;
+    }
+    .dataSeption{       
+        >*{
+            margin-bottom: 1.8rem;
+        }
+    }
+}
+@media (min-width:100rem){
+    .containerSection__div{
+        &::before{          
+            top: -2rem;
+            right:6rem;            
+        }  
+        &::after{           
+            top: -2rem;
+            right: 5rem;            
+        } 
+    }
+}

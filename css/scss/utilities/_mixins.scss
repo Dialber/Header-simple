@@ -1,0 +1,13 @@
+@import "../utilities/variables";
+@mixin figuras-geometricas ($borde-cuadrados-small,$largo-cuadrados-small,$color-figura-circulo){
+    width: $largo-cuadrados-small ;
+    height: $largo-cuadrados-small ; 
+    border: $borde-cuadrados-small solid $color-figura-circulo;
+}
+@mixin triangulo($color-figura-triangulo,$fontzise) {
+    content: "\25B3";   
+        display: block;
+        color:$color-figura-triangulo;
+        font-size: $fontzise;
+        font-weight: bolder;    
+}

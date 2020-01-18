@@ -1,0 +1,29 @@
+@import "../utilities/variables";
+*{
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;    
+    text-align: center;
+    margin: 0 auto;
+    color:#000000;   
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+li{
+    list-style: none;
+}
+h1{
+    line-height: 1;
+}
+h2{
+    line-height: 1.2;
+}
