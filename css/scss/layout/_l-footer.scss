@@ -3,17 +3,31 @@
 }
 .footer__ul{
     width: 100%;
+    padding: .5rem 0;
     display: flex;
     justify-content: flex-start;
     align-items: center; 
 }
-.footer__li{
-    margin: .5rem;
-    font-size: 1.5rem;
+.footer__li{     
     cursor: pointer;    
 }
 .footer__a{
-    &:hover{
-        font-weight: 700;
+    padding: .5rem;    
+}
+
+@media (min-width:36rem){
+    
+}
+@media (min-width:48rem){
+    .footer__a{
+        padding: .8rem;    
+    }
+}
+@media (min-width:62rem){
+   
+}
+@media (min-width:75rem){
+    .footer__a{
+        padding: 1rem;    
     }
 }

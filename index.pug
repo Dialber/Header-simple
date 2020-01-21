@@ -11,8 +11,10 @@ html(lang="en")
         header(class="l-header")
             nav(class="nav")
                 p(class="nav__p") Logo
-                ul(class="nav__ul")
-                    li(class="nav__li" autofocus): a home  
+                i(class="fas fa-bars" id="btn_bars")
+                ul(class="nav__ul" id="nav__menu")
+                    li(class="nav__li btn__close"): a(class="far fa-times-circle")  
+                    li(class="nav__li"): a home  
                     li(class="nav__li"): a About Us  
                     li(class="nav__li"): a Service
                     li(class="nav__li"): a Contact
@@ -28,7 +30,8 @@ html(lang="en")
                         img(class="containerSection__img" src="images/desktop.jpg", alt="descktop with many things over it")
             footer(class="footer")
                     ul(class="footer__ul")
-                        li(class="footer__li"): a(class="far fa-bell footer__a")   
-                        li(class="footer__li"): a(class="far fa-bell footer__a") 
-                        li(class="footer__li"): a(class="far fa-bell footer__a") 
-                        li(class="footer__li"): a(class="far fa-bell footer__a")
+                        li(class="footer__li"): a(class="fab fa-facebook-f footer__a icon")   
+                        li(class="footer__li"): a(class="fab fa-twitter footer__a icon") 
+                        li(class="footer__li"): a(class="fab fa-instagram footer__a icon") 
+                        li(class="footer__li"): a(class="fab fa-whatsapp footer__a icon")
+        script(src="js/main.js")

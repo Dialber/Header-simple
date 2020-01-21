@@ -2,7 +2,9 @@
 body {
     background:url("../images/claro.png") right 60%/50% 25rem no-repeat,
                url("../images/oscura.png") right 60%/50% 25rem no-repeat;
+               overflow-x: hidden;
     }
+
 
 @media (min-width:36rem){
     body{

@@ -1,20 +1,14 @@
 @import "../utilities/variables";
 .buttom{
     display: inline-block;   
-    background-color:$color-animation-li-header;
-    color: #fff;
+    background-color:$color-primary;
+    color:$color-buttom;
     font-size: 1.2rem;
-    padding: .2rem .6rem;
+    padding: .3rem .7rem;
     font-weight: 400;
     border: 0;
-    &:hover{
-        background-color: darken($color-animation-li-header, 10%);
-        cursor: pointer;
-    }
-    &:active{
-        background-color: darken($color-animation-li-header, 20%);
-        transform: scale(0.9);
-    }
+    $esButtom:true;
+    @include conduct($color-primary,$esButtom);
 }
 @media (min-width:36rem){
     .buttom{
@@ -24,6 +18,7 @@
 @media (min-width:48rem){
     .buttom{
         padding: .6rem 1.8rem;
+        font-size: 1.4rem;
        } 
 }
 @media (min-width:62rem){
@@ -34,5 +29,6 @@
 @media (min-width:75rem){
     .buttom{
         padding: 1rem 3rem;
+        font-size: 1.8rem;
        } 
 }
