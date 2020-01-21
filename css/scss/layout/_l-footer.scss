@@ -1,3 +1,4 @@
+@import "../utilities/variables";
 .l-footer{
     width: 100%;
 }
@@ -11,10 +12,12 @@
 .footer__li{     
     cursor: pointer;    
 }
-.footer__a{
+.footer__a,.footer__derechos{
     padding: .5rem;    
 }
-
+.footer__derechosReservados{
+    color:$color-primary;  
+}
 @media (min-width:36rem){
     
 }
@@ -29,5 +32,8 @@
 @media (min-width:75rem){
     .footer__a{
         padding: 1rem;    
+    }
+    .footer__derechosReservados{
+        padding: 1.5rem;       
     }
 }
